@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .box{
+    height: 90%;
+    width: 80%;
+    padding: 0 20px;
+    display: flex;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid grey;
+    box-shadow: -20px 20px 20px grey;
+}
+.container .box nav{
+    height: 10%;
+    width: 95%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px auto;
+    padding: 20px;
+}
+.container .box nav ul li{
+    display: inline-block;
+    padding: 0 30px;
+    list-style: none;
+   
+}
+.container .box nav ul li a{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    transition: 0.3s;
+}
+.container .box nav ul li a:hover{
+    color: red;
+}
+.container .box nav .logo{
+    font-size: 35px;
+    color: red;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.container .box .contains{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20%;
+    padding-left: 70px;
+}
+.contains .section-1{
+    position: relative;
+    width: 50%;
+}
+.contains .section-1 h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.contains .section-1 h3{
+    color: red;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contains .section-1 p{
+    font-size: 16px;
+    color: #505052;
+    margin-bottom: 60px;
+}
+.contains .section-1 .btn{
+    padding: 15px 15px;
+    margin-left: 30px;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.contains .section-1 .btn:hover{
+    color: white;
+    transition: 0.3s;
+    background-color: gray;
+    border: 1px solid ;
+}
+.contains .section-2{
+    width: 50%;
+    margin-right: 50px;
+}
+.contains .section-2 img{
+    width: 90%;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+}
